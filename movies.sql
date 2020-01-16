@@ -1,0 +1,2 @@
+CREATE TABLE movies (id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, title VARCHAR(30), duration TIME, releaseDate DATE NULL, country VARCHAR(15), synopsis VARCHAR(400), trailerID VARCHAR(20));
+INSERT INTO movies (title, duration, releaseDate, country, synopsis, trailerID) VALUES("The Garden of Words", '00:46', '2013-05-31', "Japan", "<long synopsis here>", "FMabhvDoolc");
